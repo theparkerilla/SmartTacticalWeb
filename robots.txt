@@ -1,0 +1,13 @@
+# Smart Tactical — https://www.smarttactical.io
+# Acceso completo para buscadores y para asistentes de IA
+# (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot,
+# PerplexityBot, Google-Extended, Applebot-Extended, Bingbot, etc.).
+# Resumen del sitio para modelos de lenguaje: https://www.smarttactical.io/llms.txt
+
+User-agent: *
+Allow: /
+# Copias de trabajo antiguas de la home (contenido duplicado)
+Disallow: /index%20(9).html
+Disallow: /Smart%20Tactical%20Home%20v8%20-%20deploy.dc.html
+
+Sitemap: https://www.smarttactical.io/sitemap.xml

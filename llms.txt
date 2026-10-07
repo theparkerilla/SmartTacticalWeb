@@ -1,0 +1,53 @@
+# Smart Tactical
+
+> Smart Tactical ofrece el ST-1, un simulador de tiro para fuerzas de seguridad, fuerzas armadas y empresas de seguridad privada. Reproduce el arma real —retroceso, disparo y precisión— para que el personal practique todas las veces que haga falta, sin munición real y con datos objetivos de cada tiro.
+
+Sitio oficial: https://www.smarttactical.io/ (en español). Opera desde Argentina. La venta y el despliegue del sistema están dirigidos solo a organizaciones calificadas: fuerzas de seguridad, fuerzas armadas y empresas de seguridad habilitadas.
+
+## Qué es el ST-1
+
+- Simulador de tiro con escenario proyectado: el arma dispara un haz láser / infrarrojo en lugar de un proyectil, una cámara de alta velocidad detecta el impacto y el software registra impacto, tiempo de reacción y agrupamiento de cada tirador.
+- Un polígono completo en 40 m², para hasta 4 tiradores, listo en 30 minutos y sin obra civil.
+- Cada impacto queda registrado para que el instructor corrija en el momento, y los reportes por tirador se exportan para legajo y auditoría.
+
+## Por qué existe
+
+La habilidad de tiro se construye con repetición, y hoy la repetición la limita el costo de la munición, no la voluntad de entrenar. Valores de referencia publicados en el sitio (pesos argentinos, 2026, solo consumibles): munición real ≈ $1.200 por disparo; simulador ST-1 ≈ $7,5 por disparo. Eso equivale a unas 160 repeticiones por el mismo dinero. Una lata de gas rinde ~2.000 disparos. Son valores estimativos y no constituyen una oferta; el equipamiento inicial se cotiza según el despliegue.
+
+## Aplicaciones (modos de entrenamiento)
+
+- Carriles de precisión: tiro sobre blancos de calificación proyectados; cada impacto queda registrado con precisión milimétrica para que el instructor corrija en el momento.
+- Cursos de calificación: cursos adaptados a los protocolos de cada institución, con reportes por tirador (precisión, tiempos de reacción, progreso) exportables para legajo y auditoría.
+- Tiro reactivo: ejercicios contra reloj que miden impacto, tiempo de reacción y agrupamiento en cada disparo.
+- Disparar / no disparar: escenarios de video con toma de decisiones, desarrollados según las amenazas reales y la normativa de cada institución.
+
+## La armería: tres formas de tirar
+
+El catálogo cubre pistolas, escopetas, subfusiles, fusiles, tiro de precisión y opciones no letales.
+
+- Réplicas con retroceso: réplicas licenciadas con retroceso activo por gas; empuñadura, peso y ciclo del arma real.
+- Kit de conversión: convierte el arma de dotación en simulador y la devuelve a servicio real.
+- Cartucho láser: se carga en la recámara del arma real y emite el haz en cada disparo.
+
+## Escenarios de uso
+
+- Fuerzas armadas: entrenamiento de tiro militar con réplica o arma de dotación con kit de conversión; la empuñadura, la puntería y el control del disparo son los mismos que con fuego real.
+- Fuerzas policiales: cursos de calificación y escenarios de disparar / no disparar, con reportes por tirador.
+- Seguridad privada: práctica frecuente y habilitación sin polígono, con un registro objetivo de cada tirador, sin munición ni traslados.
+- Despliegue en campaña: bastan 40 m² para hasta 4 tiradores; listo en 30 minutos, sin obra civil ni técnico residente.
+
+## Qué incluye
+
+- Solución integral: hardware, software de simulación y estación del instructor, entregados, instalados y calibrados.
+- Insumos y repuestos: gas, cartuchos láser, baterías y repuestos, con stock en la región.
+- Escenarios a medida: cursos y protocolos adaptados a las amenazas reales y a la normativa de cada institución.
+- Instructores certificados: capacitación a los instructores de la institución para operar de forma autónoma, con soporte remoto.
+
+## Páginas
+
+- [Inicio](https://www.smarttactical.io/): presentación del ST-1, aplicaciones, equipo, escenarios y contacto para coordinar una demostración.
+- [Información legal](https://www.smarttactical.io/legales.html): política de privacidad, términos y condiciones y política de cookies.
+
+## Contacto
+
+Para coordinar una demostración o pedir ficha técnica y cotización, usar los botones de contacto de https://www.smarttactical.io/#cierre
