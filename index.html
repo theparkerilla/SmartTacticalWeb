@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Tactical — Simulador táctico para seguridad privada y fuerzas del Estado</title>
+<meta name="description" content="El ST-1 reproduce el arma real —retroceso, disparo y precisión— para que tu personal practique todas las veces que haga falta, con datos objetivos de cada tiro.">
 <script src="./support.js"></script>
 </head>
 <body>
@@ -579,8 +581,10 @@ class Component extends DCLogic {
     setTimeout(() => this.startTesti(), 50);
   }
 
-  componentDidUpdate(_, prev) {
-    if (prev.ti !== this.state.ti && !this.reduce) {
+  componentDidUpdate() {
+    const prevTi = this._lastTi === undefined ? 0 : this._lastTi;
+    this._lastTi = this.state.ti;
+    if (prevTi !== this.state.ti && !this.reduce) {
       const q = document.getElementById('st-quote');
       if (q && q.animate) q.animate([{ opacity: 0, transform: 'translateY(18px)' }, { opacity: 1, transform: 'none' }], { duration: 800, easing: EASE });
     }
