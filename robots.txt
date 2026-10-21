@@ -9,5 +9,9 @@ Allow: /
 # Copias de trabajo antiguas de la home (contenido duplicado)
 Disallow: /index%20(9).html
 Disallow: /Smart%20Tactical%20Home%20v8%20-%20deploy.dc.html
+# Herramientas internas y propuestas privadas a clientes
+Disallow: /campo
+Disallow: /p/
+Disallow: /api/
 
 Sitemap: https://www.smarttactical.io/sitemap.xml
