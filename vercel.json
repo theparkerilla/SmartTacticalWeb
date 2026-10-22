@@ -2,10 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/campo",
-      "destination": "https://smart-tactical-ops.vercel.app/campo/index.html"
-    },
-    {
       "source": "/campo/",
       "destination": "https://smart-tactical-ops.vercel.app/campo/index.html"
     },
@@ -56,6 +52,13 @@
           "value": "noindex, nofollow"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/campo",
+      "destination": "/campo/",
+      "permanent": false
     }
   ]
 }
