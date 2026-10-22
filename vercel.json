@@ -1,17 +1,61 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/campo", "destination": "https://smart-tactical-ops.vercel.app/campo/" },
-    { "source": "/campo/:path*", "destination": "https://smart-tactical-ops.vercel.app/campo/:path*" },
-    { "source": "/p/:token", "destination": "https://smart-tactical-ops.vercel.app/p/:token" },
-    { "source": "/propuesta/:path*", "destination": "https://smart-tactical-ops.vercel.app/propuesta/:path*" },
-    { "source": "/api/:path*", "destination": "https://smart-tactical-ops.vercel.app/api/:path*" },
-    { "source": "/js/:path*", "destination": "https://smart-tactical-ops.vercel.app/js/:path*" },
-    { "source": "/img/:path*", "destination": "https://smart-tactical-ops.vercel.app/img/:path*" },
-    { "source": "/fonts/:path*", "destination": "https://smart-tactical-ops.vercel.app/fonts/:path*" }
+    {
+      "source": "/campo",
+      "destination": "https://smart-tactical-ops.vercel.app/campo/index.html"
+    },
+    {
+      "source": "/campo/",
+      "destination": "https://smart-tactical-ops.vercel.app/campo/index.html"
+    },
+    {
+      "source": "/campo/:path+",
+      "destination": "https://smart-tactical-ops.vercel.app/campo/:path+"
+    },
+    {
+      "source": "/p/:token",
+      "destination": "https://smart-tactical-ops.vercel.app/p/:token"
+    },
+    {
+      "source": "/propuesta/:path*",
+      "destination": "https://smart-tactical-ops.vercel.app/propuesta/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://smart-tactical-ops.vercel.app/api/:path*"
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "https://smart-tactical-ops.vercel.app/js/:path*"
+    },
+    {
+      "source": "/img/:path*",
+      "destination": "https://smart-tactical-ops.vercel.app/img/:path*"
+    },
+    {
+      "source": "/fonts/:path*",
+      "destination": "https://smart-tactical-ops.vercel.app/fonts/:path*"
+    }
   ],
   "headers": [
-    { "source": "/p/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] },
-    { "source": "/campo(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
+    {
+      "source": "/p/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/campo(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
   ]
 }
