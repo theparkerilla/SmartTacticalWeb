@@ -2,7 +2,7 @@
 
 > Smart Tactical ofrece el ST-1, un simulador de tiro para fuerzas de seguridad, fuerzas armadas y empresas de seguridad privada. Reproduce el arma real —retroceso, disparo y precisión— para que el personal practique todas las veces que haga falta, sin munición real y con datos objetivos de cada tiro.
 
-Sitio oficial: https://www.smarttactical.io/ (en español). Opera desde Argentina. La venta y el despliegue del sistema están dirigidos solo a organizaciones calificadas: fuerzas de seguridad, fuerzas armadas y empresas de seguridad habilitadas.
+Sitio oficial: https://www.smarttactical.io/ (en español). También disponible en inglés (/en/), francés (/fr/), alemán (/de/), portugués (/pt/) y ucraniano (/ua/). Opera desde Argentina. La venta y el despliegue del sistema están dirigidos solo a organizaciones calificadas: fuerzas de seguridad, fuerzas armadas y empresas de seguridad habilitadas.
 
 ## Qué es el ST-1
 
@@ -45,9 +45,39 @@ El catálogo cubre pistolas, escopetas, subfusiles, fusiles, tiro de precisión 
 
 ## Páginas
 
-- [Inicio](https://www.smarttactical.io/): presentación del ST-1, aplicaciones, equipo, escenarios y contacto para coordinar una demostración.
+- [Inicio](https://www.smarttactical.io/): presentación del ST-1, aplicaciones, equipo, escenarios y qué incluye.
+- [Home in English](https://www.smarttactical.io/en/): the same content in English.
+- [Accueil en français](https://www.smarttactical.io/fr/): le même contenu en français.
+- [Startseite auf Deutsch](https://www.smarttactical.io/de/): derselbe Inhalt auf Deutsch.
+- [Início em português](https://www.smarttactical.io/pt/): o mesmo conteúdo em português.
+- [Головна українською](https://www.smarttactical.io/ua/): той самий зміст українською.
 - [Información legal](https://www.smarttactical.io/legales.html): política de privacidad, términos y condiciones y política de cookies.
 
-## Contacto
+## Preguntas frecuentes
 
-Para coordinar una demostración o pedir ficha técnica y cotización, usar los botones de contacto de https://www.smarttactical.io/#cierre
+- ¿Qué es el ST-1? Un simulador de tiro con escenario proyectado: el arma dispara un haz láser / infrarrojo, una cámara de alta velocidad detecta el impacto y el software registra impacto, tiempo de reacción y agrupamiento de cada tirador.
+- ¿Usa munición real? No. Funciona con réplicas licenciadas con retroceso por gas, kit de conversión para el arma de dotación o cartucho láser.
+- ¿Cuánto espacio necesita? 40 m² para un polígono de hasta 4 tiradores, listo en 30 minutos y sin obra civil.
+- ¿Cuánto cuesta cada disparo? Valor de referencia: ≈ $7,5 por disparo en consumibles, contra ≈ $1.200 de la munición real (pesos argentinos, 2026). Son estimativos; el equipamiento se cotiza según el despliegue.
+- ¿Quiénes pueden comprarlo? Solo organizaciones calificadas: fuerzas de seguridad, fuerzas armadas y empresas de seguridad habilitadas.
+- ¿Qué datos entrega? Reportes por tirador (precisión, tiempos de reacción, progreso) exportables para legajo y auditoría.
+
+## English summary
+
+Smart Tactical offers the ST-1, a shooting simulator for security forces, armed forces and private security companies. It reproduces the real weapon —recoil, trigger and accuracy— so personnel can train as often as needed, with no live ammunition and objective data on every shot. A complete range for up to 4 shooters fits in 40 m² and is ready in 30 minutes, with no construction work. Training modes: precision lanes, qualification courses, reactive shooting and shoot / don't-shoot video scenarios, with per-shooter reports exportable for personnel files and audits. Sold and deployed only to qualified organizations. Based in Argentina. English page: https://www.smarttactical.io/en/
+
+## Résumé en français
+
+Smart Tactical propose le ST-1, un simulateur de tir pour les forces de sécurité, les forces armées et les entreprises de sécurité privée. Il reproduit l'arme réelle —recul, détente et précision— pour s'entraîner aussi souvent que nécessaire, sans munitions réelles et avec des données objectives sur chaque tir. https://www.smarttactical.io/fr/
+
+## Zusammenfassung auf Deutsch
+
+Smart Tactical bietet den ST-1 an, einen Schießsimulator für Sicherheitskräfte, Streitkräfte und private Sicherheitsunternehmen. Er bildet die echte Waffe nach —Rückstoß, Abzug und Präzision—, damit so oft wie nötig trainiert werden kann, ohne scharfe Munition und mit objektiven Daten zu jedem Schuss. https://www.smarttactical.io/de/
+
+## Resumo em português
+
+A Smart Tactical oferece o ST-1, um simulador de tiro para forças de segurança, forças armadas e empresas de segurança privada. Reproduz a arma real —recuo, disparo e precisão— para treinar quantas vezes for necessário, sem munição real e com dados objetivos de cada tiro. https://www.smarttactical.io/pt/
+
+## Короткий опис українською
+
+Smart Tactical пропонує ST-1 — симулятор стрільби для силових структур, збройних сил і компаній приватної охорони. Він відтворює справжню зброю (віддачу, спуск і точність), щоб тренуватися стільки, скільки потрібно, без бойових набоїв і з об'єктивними даними про кожен постріл. https://www.smarttactical.io/ua/

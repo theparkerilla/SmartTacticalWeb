@@ -1,15 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.smarttactical.io/</loc>
     <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.smarttactical.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.smarttactical.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.smarttactical.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.smarttactical.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.smarttactical.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.smarttactical.io/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.smarttactical.io/"/>
   </url>
   <url>
     <loc>https://www.smarttactical.io/en/</loc>
     <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.smarttactical.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.smarttactical.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.smarttactical.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.smarttactical.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.smarttactical.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.smarttactical.io/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.smarttactical.io/"/>
+  </url>
+  <url>
+    <loc>https://www.smarttactical.io/fr/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.smarttactical.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.smarttactical.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.smarttactical.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.smarttactical.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.smarttactical.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.smarttactical.io/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.smarttactical.io/"/>
+  </url>
+  <url>
+    <loc>https://www.smarttactical.io/de/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.smarttactical.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.smarttactical.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.smarttactical.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.smarttactical.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.smarttactical.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.smarttactical.io/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.smarttactical.io/"/>
+  </url>
+  <url>
+    <loc>https://www.smarttactical.io/pt/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.smarttactical.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.smarttactical.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.smarttactical.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.smarttactical.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.smarttactical.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.smarttactical.io/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.smarttactical.io/"/>
+  </url>
+  <url>
+    <loc>https://www.smarttactical.io/ua/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.smarttactical.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.smarttactical.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.smarttactical.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.smarttactical.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.smarttactical.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.smarttactical.io/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.smarttactical.io/"/>
   </url>
   <url>
     <loc>https://www.smarttactical.io/legales.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
 </urlset>
