@@ -7,6 +7,9 @@
 <meta name="description" content="Simulador de tiro ST-1 con retroceso por gas y métricas por disparo. Un polígono para 4 tiradores en 40 m², listo en 30 minutos y sin munición real.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://www.smarttactical.io/">
+<link rel="alternate" hreflang="es" href="https://www.smarttactical.io/">
+<link rel="alternate" hreflang="en" href="https://www.smarttactical.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://www.smarttactical.io/">
 <meta name="theme-color" content="#1A1A1A">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
@@ -278,6 +281,7 @@ html.lenis,html.lenis body{height:auto}
           <a href="#confianza" onClick="{{ goTrust }}" style="color:#F4F3EF" style-hover="color:#C8281E">Confianza</a>
           <a href="#escenarios" onClick="{{ goScen }}" style="color:#F4F3EF" style-hover="color:#C8281E">Escenarios</a>
         </div>
+        <a href="/en/" hreflang="en" lang="en" aria-label="English version" style="font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#F4F3EF" style-hover="color:#C8281E">EN</a>
         <button onClick="{{ toggleMenu }}" aria-label="Menú" aria-expanded="{{ menu }}" style="width:44px;height:44px;margin-right:-12px;padding:0;background:none;border:0;cursor:pointer;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px">
           <span style="display:block;width:20px;height:1px;background:#F4F3EF;transition:transform .6s cubic-bezier(.65,0,.35,1);transform:{{ bar1 }}"></span>
           <span style="display:block;width:20px;height:1px;background:#F4F3EF;transition:transform .6s cubic-bezier(.65,0,.35,1);transform:{{ bar2 }}"></span>
@@ -291,13 +295,14 @@ html.lenis,html.lenis body{height:auto}
           <a href="#equipo" onClick="{{ goKit }}" style="color:#F4F3EF" style-hover="color:#C8281E">El equipo</a>
           <a href="#confianza" onClick="{{ goTrust }}" style="color:#F4F3EF" style-hover="color:#C8281E">Confianza</a>
           <a href="#escenarios" onClick="{{ goScen }}" style="color:#F4F3EF" style-hover="color:#C8281E">Escenarios</a>
-          <a href="#cierre" onClick="{{ goClose }}" style="color:#F4F3EF" style-hover="color:#C8281E">Contacto</a>
+          <a href="#cierre" onClick="{{ goClose }}" style="color:#F4F3EF" style-hover="color:#C8281E">Qué incluye</a>
         </div>
         <img src="assets/logo-wordmark-cream.png" alt="Smart Tactical" style="height:28px;width:auto;display:block">
         <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px 28px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#8F8E89">
           <a href="legales.html#privacidad" style="color:#8F8E89" style-hover="color:#F4F3EF">Privacidad</a>
           <a href="legales.html#terminos" style="color:#8F8E89" style-hover="color:#F4F3EF">Términos</a>
           <a href="legales.html#cookies" style="color:#8F8E89" style-hover="color:#F4F3EF">Cookies</a>
+          <a href="/en/" hreflang="en" lang="en" style="color:#8F8E89" style-hover="color:#F4F3EF">English</a>
           <span>© 2026 Smart Tactical</span>
         </div>
         <div style="width:100%;max-width:760px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px">
@@ -328,9 +333,6 @@ html.lenis,html.lenis body{height:auto}
             <span style="display:block;overflow:hidden;padding-bottom:.06em"><span data-line style="display:block;color:#B9B8B2">presupuesto.</span></span>
           </h1>
           <div data-fade data-delay="500" style="margin-top:28px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase">Sin munición · Sin polígono</div>
-          <div data-fade data-delay="600" style="display:flex;margin-top:28px">
-            <a href="mailto:contacto@smarttactical.com?subject=Coordinar%20demostraci%C3%B3n%20ST-1" style="display:inline-flex;align-items:center;height:48px;padding:0 22px;border-radius:8px;background:#C8281E;color:#F4F3EF;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;transition:background-color .3s ease" style-hover="background:#F4F3EF;color:#1A1A1A">Coordinar demostración</a>
-          </div>
         </div>
         <div data-fade data-delay="750" style="max-width:360px;display:{{ heroSide }};gap:28px">
           <p style="margin:0;font:400 16px/1.55 'Lexend',sans-serif;text-wrap:pretty">El ST-1 reproduce el arma real —retroceso, disparo y precisión— para que tu personal practique todas las veces que haga falta, con datos objetivos de cada tiro.</p>
@@ -392,7 +394,6 @@ html.lenis,html.lenis body{height:auto}
           </div>
         </sc-for>
       </div>
-      <div data-fade style="margin-top:48px;font:400 12px/1.5 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#8F8E89;max-width:640px">Valores de referencia en pesos argentinos (2026), solo consumibles. El equipamiento inicial se cotiza según el despliegue.</div>
     </div>
   </section>
 
@@ -424,7 +425,6 @@ html.lenis,html.lenis body{height:auto}
       </sc-for>
       <div data-rule style="height:1px;background:#D6D5D0"></div>
     </div>
-    <div style="margin-top:24px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#75746F">[PENDIENTE: clip propio de cada aplicación · hoy: fotos de archivo]</div>
 
     <div style="margin-top:clamp(96px,16vh,160px)">
       <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:16px 40px;margin-bottom:40px">
@@ -480,10 +480,6 @@ html.lenis,html.lenis body{height:auto}
       </div>
       <div style="position:absolute;left:clamp(20px,4vw,56px);right:clamp(20px,4vw,56px);bottom:clamp(24px,5vh,48px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px 24px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase">
         <span>Hasta 4 tiradores · Listo en 30 minutos · Sin obra civil</span>
-        <div style="display:{{ deskFlex }};flex-wrap:wrap;gap:8px;color:#75746F">
-          <span style="border:1px dashed #75746F;border-radius:8px;padding:6px 10px">[PENDIENTE: peso del kit]</span>
-          <span style="border:1px dashed #75746F;border-radius:8px;padding:6px 10px">[PENDIENTE: modelo 3D real del ST-1 · hoy: esquema]</span>
-        </div>
       </div>
     </div>
   </section>
@@ -496,24 +492,18 @@ html.lenis,html.lenis body{height:auto}
     <div style="display:flex;justify-content:space-between;align-items:center;gap:24px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase">
       <span>{{ tCount }}</span>
       <div style="display:flex;gap:4px">
-        <button onClick="{{ prevTesti }}" aria-label="Testimonio anterior" style="background:none;border:0;padding:12px;cursor:pointer;color:#1A1A1A;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em" style-hover="color:#B3211A">ANT</button>
-        <button onClick="{{ nextTesti }}" aria-label="Siguiente testimonio" style="background:none;border:0;padding:12px 0 12px 12px;cursor:pointer;color:#1A1A1A;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em" style-hover="color:#B3211A">SIG</button>
+        <button onClick="{{ prevTesti }}" aria-label="Anterior" style="background:none;border:0;padding:12px;cursor:pointer;color:#1A1A1A;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em" style-hover="color:#B3211A">ANT</button>
+        <button onClick="{{ nextTesti }}" aria-label="Siguiente" style="background:none;border:0;padding:12px 0 12px 12px;cursor:pointer;color:#1A1A1A;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em" style-hover="color:#B3211A">SIG</button>
       </div>
     </div>
     <div style="position:relative;height:1px;background:#D6D5D0;margin-bottom:clamp(48px,8vh,88px)">
       <div id="st-tbar" style="position:absolute;inset:0;background:#1A1A1A;transform-origin:left center;transform:scaleX(0)"></div>
     </div>
     <div id="st-quote" style="display:grid;grid-template-columns:{{ quoteCols }};gap:24px 40px;align-items:start">
-      <div style="width:56px;height:56px;border-radius:8px;background:#1A1A1A;color:#F4F3EF;display:flex;align-items:center;justify-content:center;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em">{{ testi.cc }}</div>
       <div>
-        <blockquote style="margin:0;max-width:1100px;font:400 clamp(28px,3.6vw,56px)/1.15 'Lexend',sans-serif;letter-spacing:-.02em;text-wrap:pretty">“{{ testi.quote }}”</blockquote>
-        <div style="margin-top:32px;display:grid;gap:4px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase">
-          <span>{{ testi.role }}</span>
-          <span style="color:#75746F">{{ testi.org }}</span>
-        </div>
+        <p style="margin:0;max-width:1100px;font:400 clamp(28px,3.6vw,56px)/1.15 'Lexend',sans-serif;letter-spacing:-.02em;text-wrap:pretty">{{ testi.quote }}</p>
       </div>
     </div>
-    <div style="margin-top:32px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#75746F">[PENDIENTE: testimonios ilustrativos · reemplazar por citas reales aprobadas]</div>
     <div style="margin-top:clamp(80px,14vh,160px)">
       <div data-rule style="height:1px;background:#D6D5D0"></div>
       <div data-stagger style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
@@ -523,7 +513,6 @@ html.lenis,html.lenis body{height:auto}
           </div>
         </sc-for>
       </div>
-      <div style="font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#75746F">Logotipos mostrados con fines de referencia institucional.</div>
     </div>
   </section>
 
@@ -562,7 +551,6 @@ html.lenis,html.lenis body{height:auto}
         <span style="display:block;overflow:hidden;padding-bottom:.06em"><span data-line style="display:block">Entrenar todos los días,</span></span>
         <span style="display:block;overflow:hidden;padding-bottom:.06em"><span data-line style="display:block;color:#8F8E89">no una vez al año.</span></span>
       </h2>
-      <a data-fade href="mailto:contacto@smarttactical.com?subject=Coordinar%20demostraci%C3%B3n%20ST-1" style="display:inline-flex;align-items:center;height:48px;padding:0 22px;border-radius:8px;background:#C8281E;color:#F4F3EF;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;transition:background-color .3s ease" style-hover="background:#F4F3EF;color:#1A1A1A">Coordinar demostración</a>
     </div>
     <div style="margin-top:clamp(96px,16vh,160px)">
       <div data-fade style="font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#8F8E89;margin-bottom:32px">Qué incluye</div>
@@ -585,7 +573,6 @@ html.lenis,html.lenis body{height:auto}
           <span style="display:block;overflow:hidden;padding-bottom:.06em"><span data-line style="display:block">Corré un escenario</span></span>
           <span style="display:block;overflow:hidden;padding-bottom:.06em"><span data-line style="display:block">con tu propia gente.</span></span>
         </div>
-        <a data-fade href="mailto:contacto@smarttactical.com?subject=Ficha%20t%C3%A9cnica%20y%20cotizaci%C3%B3n%20ST-1" style="display:inline-flex;align-items:center;height:48px;padding:0 22px;border-radius:8px;background:#FFFFFF;color:#B3211A;font:400 12px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;transition:background-color .3s ease" style-hover="background:#1A1A1A;color:#F4F3EF">Ficha técnica y cotización</a>
       </div>
       <div data-stagger style="flex:1 1 180px;display:flex;flex-direction:column;gap:14px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase">
         <a data-fade href="#aplicaciones" onClick="{{ goApps }}" style="color:#F4F3EF" style-hover="text-decoration:underline">Aplicaciones</a>
@@ -594,9 +581,6 @@ html.lenis,html.lenis body{height:auto}
         <a data-fade href="#escenarios" onClick="{{ goScen }}" style="color:#F4F3EF" style-hover="text-decoration:underline">Escenarios</a>
       </div>
       <div data-stagger style="flex:1 1 220px;display:flex;flex-direction:column;gap:14px;font:400 12px/1.4 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase">
-        <a data-fade href="mailto:contacto@smarttactical.com" style="color:#F4F3EF;text-transform:none" style-hover="text-decoration:underline">contacto@smarttactical.com</a>
-        <span data-fade>[PENDIENTE: confirmar email]</span>
-        <span data-fade>[PENDIENTE: teléfono y dirección]</span>
         <span data-fade>Argentina</span>
       </div>
     </div>
@@ -607,6 +591,7 @@ html.lenis,html.lenis body{height:auto}
         <a href="legales.html#privacidad" style="color:#F4F3EF" style-hover="text-decoration:underline">Privacidad</a>
         <a href="legales.html#terminos" style="color:#F4F3EF" style-hover="text-decoration:underline">Términos</a>
         <a href="legales.html#cookies" style="color:#F4F3EF" style-hover="text-decoration:underline">Cookies</a>
+        <a href="/en/" hreflang="en" lang="en" style="color:#F4F3EF" style-hover="text-decoration:underline">English</a>
       </div>
     </div>
     <div aria-hidden="true" style="margin-top:clamp(40px,7vh,72px);padding:0 clamp(20px,4vw,56px) clamp(20px,4vw,56px);overflow:hidden">
@@ -651,12 +636,12 @@ const STEPS = [
   { n: '03', t: 'El software registra impacto, tiempo de reacción y agrupamiento de cada tirador.' }
 ];
 const TESTIS = [
-  { cc: 'AR', quote: 'Pasamos de dos prácticas al año a entrenar todas las semanas. La mejora en las calificaciones se vio en el primer trimestre.', role: 'Jefe de Instrucción de Tiro', org: 'Fuerza policial provincial · Argentina' },
-  { cc: 'UY', quote: 'El instructor ve cada disparo en el momento y corrige ahí mismo. Con fuego real eso no lo teníamos.', role: 'Coordinadora de Capacitación', org: 'Fuerza policial nacional · Uruguay' },
-  { cc: 'PY', quote: 'Armamos el polígono en una sala de la base y en media hora estábamos tirando.', role: 'Oficial de Instrucción', org: 'Fuerzas Armadas · Paraguay' },
-  { cc: 'CL', quote: 'La habilitación anual era un costo fijo enorme para nosotros. Hoy el personal practica más y gastamos menos.', role: 'Gerente de Operaciones', org: 'Empresa de seguridad privada · Chile' },
-  { cc: 'MX', quote: 'Los escenarios de disparar o no disparar cambiaron la forma en que evaluamos el criterio, no solo la puntería.', role: 'Director de Formación', org: 'Policía municipal · México' },
-  { cc: 'PE', quote: 'Los reportes por tirador van directo al legajo. Ante una auditoría, todo está registrado.', role: 'Responsable de Capacitación', org: 'Empresa de seguridad privada · Perú' }
+  { quote: 'Pasar de dos prácticas al año a entrenar todas las semanas.' },
+  { quote: 'El instructor ve cada disparo en el momento y corrige ahí mismo.' },
+  { quote: 'Armar el polígono en una sala y estar tirando en media hora.' },
+  { quote: 'Que el personal practique más, con menos gasto en munición.' },
+  { quote: 'Evaluar el criterio con escenarios de disparar / no disparar, no solo la puntería.' },
+  { quote: 'Reportes por tirador que van directo al legajo, listos para una auditoría.' }
 ];
 const SCEN = [
   { label: 'Escenarios — Fuerzas armadas', lines: ['Entrenamiento', 'de tiro militar.'], img: 'assets/photo-ejercito.jpg', alt: 'Efectivo del Ejército entrenando con el ST-1',
@@ -684,7 +669,7 @@ const MARKS = [
   { a: 'Retroceso por gas', b: 'Haz láser / IR', p: [2.0, 1.4, 2.4] },
   { a: 'Lata de gas', b: '~2.000 disparos', p: [2.5, 0.62, 0.6] },
   { a: 'Estación del instructor', b: 'Reportes por tirador', p: [-2.1, 0.72, 1.05] },
-  { a: 'Proyector', b: '[PENDIENTE: modelo y datos]', p: [0.45, 0.4, 0.8] }
+  { a: 'Proyector', b: '', p: [0.45, 0.4, 0.8] }
 ];
 const EASE = 'cubic-bezier(.65,0,.35,1)';
 const FRAMES = 80;
@@ -1049,7 +1034,7 @@ class Component extends DCLogic {
       curOp: S.active != null && !m ? 1 : 0, curImg: A(APPS[S.lastActive].img),
       armory: ARMORY, steps: STEPS, marks: MARKS,
       testi: TESTIS[S.ti], tCount: pad(S.ti + 1) + ' / ' + pad(nT),
-      quoteCols: m ? '1fr' : '56px minmax(0,1fr)',
+      quoteCols: '1fr',
       nextTesti: () => this.setState(s => ({ ti: (s.ti + 1) % nT }), () => this.startTesti()),
       prevTesti: () => this.setState(s => ({ ti: (s.ti - 1 + nT) % nT }), () => this.startTesti()),
       clients: CLIENTS.map(c => ({ ...c, src: A(c.src) })),
